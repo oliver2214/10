@@ -2,4 +2,6 @@ from f import f as fun
 
 x = int(input())
 
-print(f'f({x}) = {fun(x)}')
+for i in range(x):
+    print(f'f({i}) = {fun(i)}')
+
