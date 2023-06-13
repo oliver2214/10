@@ -1,1 +1,1 @@
-f = lambda x: x ** 2 + 5
+f = lambda x: x * 2 + 5
