@@ -2,4 +2,7 @@ from f import f as fun
 
 x = int(input())
 
-print(f'f({x}) = {fun(x)}')
+
+s = f'f({x}) = {fun(x)}'
+
+print(s[::-1])
